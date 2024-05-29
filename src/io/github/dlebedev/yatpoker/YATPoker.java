@@ -5,9 +5,6 @@ import picocli.CommandLine.Option;
 import picocli.CommandLine.Parameters;
 import picocli.CommandLine.Help.Visibility;
 
-import io.github.dlebedev.yatpoker.GameType;
-import io.github.dlebedev.yatpoker.PokerStyle;
-
 @CommandLine.Command(
         name="PokerGame",
         description="@|bold Yet Another Poker Game |@",
